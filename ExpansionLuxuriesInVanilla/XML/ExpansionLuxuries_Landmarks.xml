@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<ArtDefine_Landmarks>
+		<!--
+		/**
+		 * G&K - Citrus
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/GNK/citrus.fxsxml</Model>
+		</Row>
+
+		<!--
+		/**
+		 * G&K - Copper
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/GNK/copper.fxsxml</Model>
+		</Row>
+
+		<!--
+		/**
+		 * G&K - Crab
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_CRAB</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/GNK/crab.fxsxml</Model>
+		</Row>
+		
+		<!--
+		/**
+		 * G&K - Salt
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/GNK/salt.fxsxml</Model>
+		</Row>
+
+
+		<!--
+		/**
+		 * G&K - Truffle
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_TRUFFLES</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/GNK/truffle.fxsxml</Model>
+		</Row>
+
+
+		<!--
+		/**
+		 * BNW - Cocoa
+		 */
+		-->
+		<Row>
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<Model>Art/BNW/Cocoa.fxsxml</Model>
+		</Row>
+		
+		
+		
+	</ArtDefine_Landmarks>
+
+
+
+	<ArtDefine_LandmarkTypes>
+		<Row>
+			<Type>ART_DEF_RESOURCE_CITRUS</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Citrus</FriendlyName>
+		</Row>
+		<Row>
+			<Type>ART_DEF_RESOURCE_COPPER</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Copper</FriendlyName>
+		</Row>
+		<Row>
+			<Type>ART_DEF_RESOURCE_CRAB</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Crab</FriendlyName>
+		</Row>
+		<Row>
+			<Type>ART_DEF_RESOURCE_SALT</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Salt</FriendlyName>
+		</Row>
+		<Row>
+			<Type>ART_DEF_RESOURCE_TRUFFLES</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Truffles</FriendlyName>
+		</Row>
+		<Row>
+			<Type>ART_DEF_RESOURCE_COCOA</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Cocoa</FriendlyName>
+		</Row>
+
+	</ArtDefine_LandmarkTypes>
+  
+</GameData>

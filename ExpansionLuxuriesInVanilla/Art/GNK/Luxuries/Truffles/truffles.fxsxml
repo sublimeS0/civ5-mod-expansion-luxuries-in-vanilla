@@ -1,0 +1,29 @@
+<Asset>
+  <Mesh file="Truffles.gr2" source="Max" />
+  <Animation file="Truffles_Idle.gr2" name="Idle" ec="1000" source="Max" layer="None" />
+  <Texture file="Camp_MID_Deer_DIFF.dds" source="Max" />
+  <Texture file="Camp_MID_Deer_SREF.dds" source="Max" />
+  <Texture file="Camp_HB.dds" source="Max" />
+  <Texture file="Unit_Light.dds" source="Max" />
+  <Texture file="Unit_environment_Dull.dds" source="Max" />
+  <Texture file="Unit_environment_Sharp.dds" source="Max" />
+  <Texture file="Camp_HB_SREF.dds" source="Max" />
+  <Texture file="Camp_MID_Deer_ground_D.dds" source="Max" />
+  <Texture file="Camp_MID_Deer_ground_H.dds" source="Max" />
+  <Texture file="hog_texture_DIFF.dds" source="Max" />
+  <Texture file="hog_texture_SREF.dds" source="Max" />
+  <Texture file="PL_Truffle_Camp_MID_DIFF.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+  <DecisionTree file="LandmarkDecisionTree.ddtxml" source="Tool" />
+  <TimedTrigger file="FX_Triggers_Resource_Truffles.ftsxml" source="Tool" model="World" state="0,1,2" />
+  <BoneUsage>
+    <Bone name="FX_PillagedSmoke" />
+    <Bone name="DeerBuck01Head02" />
+    <Bone name="DeerBuck01HeadBone02" />
+    <Bone name="DeerBuck01HeadBone06" />
+    <Bone name="DeerBuck01HeadBone04" />
+  </BoneUsage>
+  <TimedTrigger file="FX_Triggers_Resource_Truffles_PL.ftsxml" source="Tool" state="3" model="PL Camp MID Deer" />
+</Asset>

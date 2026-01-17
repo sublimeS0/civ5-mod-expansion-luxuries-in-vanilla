@@ -1,0 +1,29 @@
+<Asset>
+  <Mesh file="Crab.gr2" source="Max" />
+  <Animation file="Crab_Boat_Anc_Idle.gr2" name="Idle" ec="1000" source="Max" layer="None" />
+  <Texture file="Seagull01_DIFF.dds" source="Max" />
+  <Texture file="Seagull01_SREF.dds" source="Max" />
+  <Texture file="Shared_Workboat_DIFF.dds" source="Max" />
+  <Texture file="Shared_Workboat_SREF.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+  <Texture file="Shared_Workboat_Trap_SREF.dds" source="Max" />
+  <Texture file="Workboat_Trap_DIFF.dds" source="Max" />
+  <Texture file="crab_DIFF.dds" source="Max" />
+  <Texture file="crab_SREF.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+  <DecisionTree file="LandmarkDecisionTree.ddtxml" source="Tool" />
+  <TimedTrigger file="FX_Triggers_Crab.ftsxml" source="Tool" model="World" state="0,1,2,3" />
+  <BoneUsage>
+    <Bone name="World" />
+    <Bone name="bone_CRATE_body" />
+    <Bone name="Dummy_Workboat" />
+    <Bone name="Bone_Main" />
+    <Bone name="FX_Splash" />
+    <Bone name="FX_Splash02" />
+  </BoneUsage>
+  <TimedTrigger file="FX_Triggers_Crab_Workboat.ftsxml" source="Tool" model="Dummy_Workboat" state="1,2" />
+</Asset>

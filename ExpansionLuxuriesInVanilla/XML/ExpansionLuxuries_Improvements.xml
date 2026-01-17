@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Improvement_ResourceTypes>
+
+		
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+		</Row>
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+
+
+
+	<Improvement_ResourceType_Yields>
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+  
+</GameData>

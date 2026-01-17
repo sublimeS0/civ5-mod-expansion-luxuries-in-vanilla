@@ -1,0 +1,24 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+      <track id="5" name="Sound 2" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerEffect" id="1" time="17.4801636" duration="0" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_BOAT_CAST_CRAB_TRAP_01" bone="FX_Splash02" />
+    <trigger type="FTimedTriggerEffect" id="2" time="17.402544" duration="0" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_WORKBOAT_CRAB_TRAP_SPLASH_01" bone="FX_Splash02" />
+    <trigger type="FTimedTriggerEffect" id="3" time="17.3857" duration="1" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_WATER_DRIPPING_01" bone="bone_CRATE_body" />
+    <trigger type="FTimedTriggerSound" id="4" time="18.0375252" duration="0" repeat="0" ec="1000" track="1" event="AS3D_UNIT_WORKBOAT_FISH_FLAP" bone="" tier="0" />
+    <trigger type="FTimedTriggerSound" id="5" time="17.2951813" duration="0" repeat="0" ec="1000" track="1" event="AS3D_UNIT_WORKBOAT_WATER_OARS_UP" bone="" tier="0" />
+    <trigger type="FTimedTriggerSound" id="6" time="17.8779259" duration="0" repeat="0" ec="1000" track="1" event="AS3D_UNIT_WORKBOAT_PADDLE_SPLASH" bone="" tier="0" />
+    <trigger type="FTimedTriggerSound" id="7" time="0.154929146" duration="0" repeat="0" ec="1000" track="1" event="AS3D_UNIT_WORKBOAT_WORK_BOAT_REEL_CLICK" bone="" tier="0" />
+    <trigger type="FTimedTriggerSound" id="8" time="1.10141" duration="0" repeat="0" ec="1000" track="1" event="AS3D_UNIT_WORKBOAT_WATER_OARS_UP" bone="" tier="0" />
+    <trigger type="FTimedTriggerEffect" id="9" time="0" duration="20.0000019" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_MD_01" bone="Bone_Main" />
+    <trigger type="FTimedTriggerEffect" id="10" time="1.09146369" duration="0" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_WORKBOAT_CRAB_TRAP_SPLASH_01" bone="FX_Splash" />
+    <trigger type="FTimedTriggerEffect" id="11" time="1.36404788" duration="0" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_BOAT_CAST_CRAB_TRAP_01" bone="FX_Splash" />
+  </triggers>
+</trigger_system>

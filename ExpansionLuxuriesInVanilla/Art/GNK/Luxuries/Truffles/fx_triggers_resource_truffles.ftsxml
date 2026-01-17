@@ -1,0 +1,78 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1001">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1002">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1003">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerSound" id="2" time="4.230845" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="3" time="4.230845" duration="0" repeat="0" ec="1001" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="4" time="4.230845" duration="0" repeat="0" ec="1002" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="5" time="4.230845" duration="0" repeat="0" ec="1003" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="6" time="9.844965" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="7" time="9.844965" duration="0" repeat="0" ec="1001" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="8" time="9.844965" duration="0" repeat="0" ec="1002" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="9" time="9.844965" duration="0" repeat="0" ec="1003" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="10" time="14.7022562" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="11" time="14.7022562" duration="0" repeat="0" ec="1001" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="12" time="14.7022562" duration="0" repeat="0" ec="1002" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="13" time="14.7022562" duration="0" repeat="0" ec="1003" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="14" time="20.1912632" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="15" time="20.1912632" duration="0" repeat="0" ec="1001" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="16" time="20.1912632" duration="0" repeat="0" ec="1002" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="17" time="20.1912632" duration="0" repeat="0" ec="1003" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="18" time="27.3118668" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="19" time="27.3118668" duration="0" repeat="0" ec="1001" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="20" time="27.3118668" duration="0" repeat="0" ec="1002" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="21" time="27.3118668" duration="0" repeat="0" ec="1003" track="1" event="AS3D_RESOURCE_PIG_OINK_SQUEAL" bone="" tier="-1" />
+    <trigger type="FTimedTriggerEffect" id="1" time="1.53518283" duration="0.3" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="22" time="1.07037032" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="23" time="1.4444443" duration="0" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="24" time="2.421295" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="25" time="2.77684951" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="27" time="9.443553" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="28" time="10.7430782" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="29" time="11.0957346" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="30" time="24.4628925" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="31" time="27.393652" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="32" time="27.8525887" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="34" time="33.4908142" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="35" time="33.89661" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="36" time="44.32176" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="37" time="44.6502571" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="38" time="24.1303024" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone02" />
+    <trigger type="FTimedTriggerEffect" id="39" time="14.8847761" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="40" time="15.8847771" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="41" time="17.3990631" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="42" time="18.0847759" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="43" time="23.7419281" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="44" time="24.599062" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone06" />
+    <trigger type="FTimedTriggerEffect" id="45" time="5.48571539" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+    <trigger type="FTimedTriggerEffect" id="46" time="5.2" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+    <trigger type="FTimedTriggerEffect" id="47" time="8.685715" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+    <trigger type="FTimedTriggerEffect" id="48" time="15.1714287" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+    <trigger type="FTimedTriggerEffect" id="49" time="34.0000076" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+    <trigger type="FTimedTriggerEffect" id="50" time="34.34287" duration="0.1" repeat="0" ec="1000" track="4" event="ART_DEF_VEFFECT_TRUFFLE_DIRT_01" bone="DeerBuck01HeadBone04" />
+  </triggers>
+</trigger_system>

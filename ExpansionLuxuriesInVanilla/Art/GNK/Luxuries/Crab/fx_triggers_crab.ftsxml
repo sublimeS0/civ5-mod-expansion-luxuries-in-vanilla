@@ -1,0 +1,21 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+      <track id="5" name="Sound 2" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerSound" id="2" time="0" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_OCEAN_WAVE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="1" time="4.02857161" duration="0" repeat="0" ec="1000" track="5" event="AS3D_RESOURCE_SEA_GULLS" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="4" time="8.314285" duration="0" repeat="0" ec="1000" track="5" event="AS3D_RESOURCE_SEA_GULLS" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="5" time="12.3714285" duration="0" repeat="0" ec="1000" track="5" event="AS3D_RESOURCE_SEA_GULLS" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="6" time="16.8857136" duration="0" repeat="0" ec="1000" track="5" event="AS3D_RESOURCE_SEA_GULLS" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="3" time="7.02858" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_OCEAN_WAVE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="7" time="14.1714306" duration="0" repeat="0" ec="1000" track="1" event="AS3D_RESOURCE_OCEAN_WAVE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerEffect" id="8" time="0" duration="20" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_FISH_WAKE_01" bone="World" />
+  </triggers>
+</trigger_system>

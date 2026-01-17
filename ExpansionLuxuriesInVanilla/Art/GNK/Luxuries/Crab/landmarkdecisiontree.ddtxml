@@ -1,0 +1,116 @@
+<DecisionTree>
+  <Selector>
+    <Layers>
+      <Layer>
+        <!-- ModelAnimationSet Layer -->
+        <Items>
+          <Item type="selector">
+            <!-- RawResource State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="animation">
+                  <AnimationSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </AnimationSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- UnderConstruction State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="animation">
+                  <AnimationSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </AnimationSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- Constructed State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="animation">
+                  <AnimationSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </AnimationSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- Pillaged State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="animation">
+                  <AnimationSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </AnimationSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+        </Items> 
+      </Layer>
+      <Layer>
+        <!-- TriggerTimelineSet Layer -->
+        <Items>
+          <Item type="selector">
+            <!-- RawResource State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="trigger_timeline">
+                  <TriggerTimelineSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </TriggerTimelineSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- UnderConstruction State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="trigger_timeline">
+                  <TriggerTimelineSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </TriggerTimelineSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- Constructed State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="trigger_timeline">
+                  <TriggerTimelineSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </TriggerTimelineSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+          <Item type="selector">
+            <!-- Pillaged State -->
+            <Items>
+              <Item type="sequence">
+                <Sequence type="trigger_timeline">
+                  <TriggerTimelineSequence ec="1000">
+                    <SequenceInfo duration="6.000000" speed="1.000000" loop="true" />
+                  </TriggerTimelineSequence>
+                </Sequence>
+              </Item>
+            </Items>
+          </Item>
+        </Items>
+      </Layer>
+      <Layer>
+        <Items>
+        </Items>
+      </Layer>
+    </Layers>  
+  </Selector>
+</DecisionTree>
