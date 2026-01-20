@@ -1,68 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
+ * Ported by: sublimeS0
+ * Original Author: Firaxis Games (Civilization V: Gods & Kings / Brave New World)
  *
- * @author sublimeS0
- * @cite The code, artwork, placement logic, and other details relating to these resources were taken from 
- *       the DLC code. TODO: write something more here
+ * Notice: This file contains original game code and assets owned by Firaxis Games.
+ * It has been modified/ported for compatibility with the base version of Civ 5. I 
+ * do not claim authorship or ownership of this code.
  *
- *
- * TODO: insert or abort?
+ * The porting logic and modifications are provided free under the GPL v3 License.
+ * The original game logic remains the property of 2K/Firaxis.
  */
 -->
 <GameData>
-
 	<Resources>
 		<!--
 		/**
 		 * Expansion 1 (G&K) Luxuries
 		 */
 		-->
-		<!--
 		<Row>
-			<Type>RESOURCE_JEWELRY</Type>
+			<Type>RESOURCE_CITRUS</Type>
+			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<Happiness>4</Happiness>
-			<Description>TXT_KEY_RESOURCE_JEWELRY</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JEWELRY_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_JEWELRY_HELP</Help>
+			<Description>TXT_KEY_RESOURCE_CITRUS</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CITRUS_TEXT</Civilopedia>
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_RESOURCE_CITRUS</ArtDefineTag>
 			<PlacementOrder>3</PlacementOrder>
 			<ConstAppearance>50</ConstAppearance>
-			<MinAreaSize>1500</MinAreaSize>
+			<MinAreaSize>3</MinAreaSize>
 			<MaxLatitude>90</MaxLatitude>
 			<RandApp1>25</RandApp1>
 			<RandApp2>25</RandApp2>
 			<Player>67</Player>
 			<Flatlands>true</Flatlands>
-			<OnlyMinorCivs>true</OnlyMinorCivs>
-			<IconString>[ICON_RES_JEWELRY]</IconString>
-			<PortraitIndex>3</PortraitIndex>
+			<GroupRange>3</GroupRange>
+			<GroupRand>15</GroupRand>
+			<IconString>[ICON_RES_CITRUS]</IconString>
+			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>
-		
-		<Row>
-			<Type>RESOURCE_PORCELAIN</Type>
-			<Happiness>4</Happiness>
-			<Description>TXT_KEY_RESOURCE_PORCELAIN</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_PORCELAIN_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_PORCELAIN_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
-			<PlacementOrder>3</PlacementOrder>
-			<ConstAppearance>50</ConstAppearance>
-			<MinAreaSize>1500</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>25</RandApp1>
-			<RandApp2>25</RandApp2>
-			<Player>67</Player>
-			<Flatlands>true</Flatlands>
-			<OnlyMinorCivs>true</OnlyMinorCivs>
-			<IconString>[ICON_RES_PORCELAIN]</IconString>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
-		</Row>
-		-->
 		<Row>
 			<Type>RESOURCE_COPPER</Type>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
@@ -83,28 +61,6 @@
 			<GroupRand>15</GroupRand>
 			<IconString>[ICON_RES_COPPER]</IconString>
 			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
-		</Row>
-		<Row>
-			<Type>RESOURCE_SALT</Type>
-			<TechCityTrade>TECH_MINING</TechCityTrade>
-			<Happiness>4</Happiness>
-			<Description>TXT_KEY_RESOURCE_SALT</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SALT_TEXT</Civilopedia>
-			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_SALT</ArtDefineTag>
-			<PlacementOrder>3</PlacementOrder>
-			<ConstAppearance>50</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>25</RandApp1>
-			<RandApp2>25</RandApp2>
-			<Player>67</Player>
-			<Flatlands>true</Flatlands>
-			<GroupRange>3</GroupRange>
-			<GroupRand>15</GroupRand>
-			<IconString>[ICON_RES_SALT]</IconString>
-			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
@@ -130,6 +86,28 @@
 			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>RESOURCE_SALT</Type>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<Happiness>4</Happiness>
+			<Description>TXT_KEY_RESOURCE_SALT</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SALT_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_SALT</ArtDefineTag>
+			<PlacementOrder>3</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Flatlands>true</Flatlands>
+			<GroupRange>3</GroupRange>
+			<GroupRand>15</GroupRand>
+			<IconString>[ICON_RES_SALT]</IconString>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>RESOURCE_TRUFFLES</Type>
 			<TechCityTrade>TECH_TRAPPING</TechCityTrade>
 			<Happiness>4</Happiness>
@@ -151,28 +129,50 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>
+		<!--
 		<Row>
-			<Type>RESOURCE_CITRUS</Type>
-			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
+			<Type>RESOURCE_JEWELRY</Type>
 			<Happiness>4</Happiness>
-			<Description>TXT_KEY_RESOURCE_CITRUS</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CITRUS_TEXT</Civilopedia>
+			<Description>TXT_KEY_RESOURCE_JEWELRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JEWELRY_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_JEWELRY_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_CITRUS</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
 			<PlacementOrder>3</PlacementOrder>
 			<ConstAppearance>50</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
+			<MinAreaSize>1500</MinAreaSize>
 			<MaxLatitude>90</MaxLatitude>
 			<RandApp1>25</RandApp1>
 			<RandApp2>25</RandApp2>
 			<Player>67</Player>
 			<Flatlands>true</Flatlands>
-			<GroupRange>3</GroupRange>
-			<GroupRand>15</GroupRand>
-			<IconString>[ICON_RES_CITRUS]</IconString>
-			<PortraitIndex>0</PortraitIndex>
+			<OnlyMinorCivs>true</OnlyMinorCivs>
+			<IconString>[ICON_RES_JEWELRY]</IconString>
+			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>
+		<Row>
+			<Type>RESOURCE_PORCELAIN</Type>
+			<Happiness>4</Happiness>
+			<Description>TXT_KEY_RESOURCE_PORCELAIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_PORCELAIN_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_PORCELAIN_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
+			<PlacementOrder>3</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>1500</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Flatlands>true</Flatlands>
+			<OnlyMinorCivs>true</OnlyMinorCivs>
+			<IconString>[ICON_RES_PORCELAIN]</IconString>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		-->
 
 		<!--
 		/**
@@ -209,6 +209,46 @@
 		 * Expansion 1 (G&K) Luxuries
 		 */
 		-->
+		<Row>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 		<!--
 		<Row>
 			<ResourceType>RESOURCE_JEWELRY</ResourceType>
@@ -221,46 +261,6 @@
 			<Yield>2</Yield>
 		</Row>
 		-->
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SALT</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SALT</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 
 		<!--
 		/**
@@ -285,6 +285,32 @@
 		 * Expansion 1 (G&K) Luxuries
 		 */
 		-->
+		<Row>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<!--
 		<Row>
 			<ResourceType>RESOURCE_JEWELRY</ResourceType>
@@ -297,32 +323,6 @@
 			<Flavor>10</Flavor>
 		</Row>
 		-->
-
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SALT</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
 
 		<!--
 		/**
@@ -344,6 +344,14 @@
 		 */
 		-->
 		<Row>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
 		</Row>
@@ -364,6 +372,10 @@
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
@@ -375,20 +387,6 @@
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<TerrainType>TERRAIN_COAST</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-
-
 	</Resource_TerrainBooleans>
 
 	<Resource_FeatureBooleans>

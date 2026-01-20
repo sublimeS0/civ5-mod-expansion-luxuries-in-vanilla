@@ -42,6 +42,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/ExpansionLuxuries_Improvements.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/i18n/ExpansionLuxuries_en_US.xml</FileName>
+      </Action>
     </ModActions>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>

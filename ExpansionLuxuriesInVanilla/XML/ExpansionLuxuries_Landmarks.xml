@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Ported by: sublimeS0
+ * Original Author: Firaxis Games (Civilization V: Gods & Kings / Brave New World)
+ *
+ * Notice: This file contains original game code and assets owned by Firaxis Games.
+ * It has been modified/ported for compatibility with the base version of Civ 5. I 
+ * do not claim authorship or ownership of this code.
+ *
+ * The porting logic and modifications are provided free under the GPL v3 License.
+ * The original game logic remains the property of 2K/Firaxis.
+ */
+-->
 <GameData>
 	<ArtDefine_Landmarks>
 		<!--

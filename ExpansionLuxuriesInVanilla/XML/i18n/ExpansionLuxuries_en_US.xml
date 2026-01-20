@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Ported by: sublimeS0
+ * Original Author: Firaxis Games (Civilization V: Gods & Kings / Brave New World)
+ *
+ * Notice: This file contains original game code and assets owned by Firaxis Games.
+ * It has been modified/ported for compatibility with the base version of Civ 5. I 
+ * do not claim authorship or ownership of this code.
+ *
+ * The porting logic and modifications are provided free under the GPL v3 License.
+ * The original game logic remains the property of 2K/Firaxis.
+ */
+-->
+<GameData>
+	<Language_en_US>
+		<!-- G&K: Citrus -->
+		<Row Tag="TXT_KEY_RESOURCE_CITRUS">
+			<Text>Citrus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_CITRUS_TEXT">
+			<Text>Citrus fruits - particularly Oranges, Limes, and Grapefruit - have been a common part of the human diet since ancient times. First cultivated in the regions surrounding Southeast Asia, the various flowering plants of the Citrus genus have since flourished in countries throughout the world. Scurvy, a Vitamin C deficiency rampant among sailors, began to become a serious problem in the 15th century. It continued to plague ships throughout the Age of Discovery, until the introduction of lime juice and sauerkraut treatments in the 18th century. Although most sailors believed it was the acid in citrus that prevented the disease, it was actually the Vitamin C, but the end result was a healthy crew in either case.</Text>
+		</Row>
+		
+		
+		<!-- G&K: Copper -->
+		<Row Tag="TXT_KEY_RESOURCE_COPPER">
+			<Text>Copper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_COPPER_TEXT">
+			<Text>The soft, orange-hued metal known as copper has been used for thousands of years for everything from weapons, to currency, to circuits and electrical wiring in the modern day. Copper has a number of unique qualities, not the least of which are its antimicrobial abilities. Copper is naturally resistant to many forms of bacteria, leading to its use in plumbing and other applications where human contact is frequent, for example in doorknobs. Copper is also valuable for the alloys produced when it is combined with other metals. When mixed with tin, copper forms the alloy known as bronze. When combined with zinc, brass is produced.</Text>
+		</Row>
+
+
+		<!-- G&K: Crab -->
+		<Row Tag="TXT_KEY_RESOURCE_CRAB">
+			<Text>Crab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_CRAB_TEXT">
+			<Text>Dwelling at the bottom of the sea, the claw-bearing crustaceans known as Crabs are omnivores that will most often consume whatever comes their way. With over 800 species of crabs known to exist throughout the world, they are a staple food in some areas and one of the largest sea commodities in the present day. Among the most popular varieties, the blue crab, for which the Chesapeake Bay of Maryland is famous for producing, is consumed at a rate of over one hundred million pounds per year.</Text>
+		</Row>
+
+
+		<!-- G&K: Salt -->
+		<Row Tag="TXT_KEY_RESOURCE_SALT">
+			<Text>Salt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SALT_TEXT">
+			<Text>One of the necessities of human life, salt, is found throughout the world in both natural and man-made environments. Used for thousands of years as a means of preserving meat, salt was crucial in efforts to store food prior to the invention of artificial refrigeration. A common method of producing and harvesting salt for consumption is through the use of evaporation. By creating large ponds or pools of saltwater, over time the natural evaporation process will remove the water and leave behind the salt residue for collection.</Text>
+		</Row>
+
+
+		<!-- G&K: Truffles -->
+		<Row Tag="TXT_KEY_RESOURCE_TRUFFLES">
+			<Text>Truffles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TRUFFLES_TEXT">
+			<Text>A rare and expensive delicacy, truffles are the fruit of a family of mushrooms that grow underground. With a pungent aroma and powerful taste, truffles are used primarily for seasoning dishes in a variety of international cuisines. One of the more unusual aspects of truffles are the means by which they are acquired, that is via "truffle hog." These pigs, domesticated and used specially for the purposes of finding underground truffles, are naturally gifted in the hunt. With an uncanny sense of smell, truffle hogs are said to have been in use since the Roman era.</Text>
+		</Row>
+		
+
+		<!-- G&K: Jewelery (city state only)
+		<Row Tag="TXT_KEY_RESOURCE_JEWELRY">
+			<Text>Jewelry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JEWELRY_TEXT">
+			<Text>Jewelry is a term used to refer to articles of gold, silver, gems, and other precious materials, worn with no other purpose in mind aside from personal adornment. Ancient forms of jewelry discovered in Africa indicate that these adornments were used more than 50,000 years ago, when beads, shells, and bone were worn in a decorative fashion. In the past 5,000 years, gold has been the primary material used in jewelry, as its malleable nature and distinctive styling allowed for increasingly complex designs that spoke to the wealth of its owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JEWELRY_HELP">
+			<Text>Jewelry is only available through a Mercantile City-State.</Text>
+		</Row>
+		-->
+		
+
+		<!-- G&L: Porcelain (city state only)
+		<Row Tag="TXT_KEY_RESOURCE_PORCELAIN">
+			<Text>Porcelain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_PORCELAIN_TEXT">
+			<Text>First created in China nearly 3,000 years ago, porcelain is a type of ceramic material formed by heating clay to create semi-translucent vessels of varying shapes and sizes. Artists and craftsmen spent centuries developing the techniques that allowed for control of both the aesthetic qualities as well as the physical strength and usability of porcelain objects. Having originated in China, porcelain dinnerware was often referred to simply as "China" during the height of its popularity in Europe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PORCELAIN_HELP">
+			<Text>Porcelain is only available through a Mercantile City-State.</Text>
+		</Row>
+		-->
+		
+		
+		<!-- BWN: Cocoa -->
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_RESOURCE_COCOA">
+			<Text>Cocoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_RESOURCE_COCOA_TEXT">
+			<Text>Cocoa beans, the product of the cacao tree native to South America, was an important commodity in pre-Columbian Mesoamerica, and figured prominently in tribal cultures. Introduced by the Spanish to Europe, by the mid-1700s it was immensely popular there as a beverage, cooking ingredient, and even as a medicine.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

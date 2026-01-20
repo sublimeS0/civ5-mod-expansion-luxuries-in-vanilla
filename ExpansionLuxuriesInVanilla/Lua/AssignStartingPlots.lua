@@ -11,8 +11,24 @@
 ------------------------------------------------------------------------------
 --	Copyright (c) 2010 Firaxis Games, Inc. All rights reserved.
 ------------------------------------------------------------------------------
+
 ------------------------------------------------------------------------------
---	Modder:   sublimeS0
+-- Ported by: sublimeS0
+-- Original Author: Firaxis Games (Civilization V: Gods & Kings / Brave New World)
+--
+-- Notice: This file contains original game code and assets owned by Firaxis Games.
+-- It has been modified/ported for compatibility with the base version of Civ 5. I 
+-- do not claim authorship or ownership of this code.
+--
+-- The porting logic and modifications are provided free under the GPL v3 License.
+-- The original game logic remains the property of 2K/Firaxis.
+--
+-- Note: For readability and future modification, I have denoted areas I 
+-- modified with comments like:
+--
+-- MOD.sublimeS0: Start
+-- and
+-- MOD.sublimeS0: End
 ------------------------------------------------------------------------------
 
 include("MapmakerUtilities");

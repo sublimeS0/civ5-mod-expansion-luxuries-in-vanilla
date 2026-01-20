@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Ported by: sublimeS0
+ * Original Author: Firaxis Games (Civilization V: Gods & Kings / Brave New World)
+ *
+ * Notice: This file contains original game code and assets owned by Firaxis Games.
+ * It has been modified/ported for compatibility with the base version of Civ 5. I 
+ * do not claim authorship or ownership of this code.
+ *
+ * The porting logic and modifications are provided free under the GPL v3 License.
+ * The original game logic remains the property of 2K/Firaxis.
+ */
+-->
 <GameData>
 	<IconTextureAtlases>
+		<!-- G&K Resource Atlas -->
 		<Row>
 			<Atlas>EXPANSION_RESOURCE_ATLAS</Atlas>
 			<IconSize>45</IconSize>
@@ -29,9 +43,9 @@
 			<IconsPerRow>4</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
-		
-		
-		
+
+
+		<!-- BNW Resource Atlas -->
 		<Row>
 			<Atlas>RESOURCE_ATLAS_DLC_07</Atlas>
 			<IconSize>256</IconSize>
@@ -62,8 +76,17 @@
 		</Row>
 	</IconTextureAtlases>
 
-
 	<IconFontTextures>
+		<!--
+		/**
+		 * Icon texture definition not required for G&K, since the textures were
+		 * added to the existing default icon font. I have included the updated 
+		 * version in this mod.
+		 */
+		-->
+		
+		
+		<!-- BNW Icon Textures -->
 		<Row>
 			<IconFontTexture>ICON_FONT_TEXTURE_DLC_07</IconFontTexture>
 			<IconFontTextureFile>FontIcons_DLC_07</IconFontTextureFile>
@@ -72,6 +95,7 @@
 
 
 	<IconFontMapping>
+		<!-- G&K Icon Mapping -->
 		<Row>
 			<IconName>ICON_RES_CITRUS</IconName>
 			<IconMapping>81</IconMapping>
@@ -92,7 +116,6 @@
 			<IconName>ICON_RES_TRUFFLES</IconName>
 			<IconMapping>85</IconMapping>
 		</Row>
-
 		<!--
 		<Row>
 			<IconName>ICON_RES_JEWELRY</IconName>
@@ -106,10 +129,11 @@
 		</Row>
 		-->
 
+
+		<!-- BNW Icon Mapping -->
 		<Row>
 			<IconName>ICON_RES_COCOA</IconName>
 			<IconMapping>1</IconMapping>
 		</Row>
 	</IconFontMapping>
-  
 </GameData>
