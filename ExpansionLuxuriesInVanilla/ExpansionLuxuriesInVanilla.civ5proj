@@ -42,15 +42,18 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/ExpansionLuxuries_Improvements.xml</FileName>
       </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/ExpansionLuxuries_Text.xml</FileName>
-      </Action>
     </ModActions>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ModContent>
+      <Content xmlns="">
+        <Type>InGameUIAddin</Type>
+        <Name>AssignStartingPlots</Name>
+        <Description />
+        <FileName>Lua/AssignStartingPlots.lua</FileName>
+      </Content>
+    </ModContent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -79,6 +82,7 @@
     <Folder Include="Art\GNK\Luxuries\Salt" />
     <Folder Include="Lua" />
     <Folder Include="XML" />
+    <Folder Include="XML\i18n" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Art\BNW\Icons\FontIcons_DLC_07.dds">
@@ -581,6 +585,10 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Lua\AssignStartingPlots.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="XML\ExpansionLuxuries_AtlasIcons.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -597,7 +605,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\ExpansionLuxuries_Text.xml">
+    <Content Include="XML\i18n\ExpansionLuxuries_en_US.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
