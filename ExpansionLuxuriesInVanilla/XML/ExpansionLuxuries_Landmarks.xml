@@ -20,13 +20,81 @@
 		 */
 		-->
 		<Row>
+			<!-- citrus / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
-			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
-			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/GNK/citrus.fxsxml</Model>
+			<Model>Art/GNK/Luxuries/Citrus/citrus.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.94</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / ancient / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_MID_Citrus_HB.fxsxml.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / ancient / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Constructed</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_MID_Citrus.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / ancient / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_MID_Citrus_PIL.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / industrial / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_IND_Citrus_HB.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / industrial / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_IND_Citrus.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- citrus / industrial / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_CITRUS</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Citrus/Plantation_IND_Citrus_PIL.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>0.96</Scale>
 		</Row>
 
 		<!--
@@ -35,14 +103,83 @@
 		 */
 		-->
 		<Row>
+			<!-- copper / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
+			<Model>Art/GNK/Luxuries/Copper/copper.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
 			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
-			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/GNK/copper.fxsxml</Model>
 		</Row>
+		<Row>
+			<!-- copper / ancient / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Copper/HB_MED_Copper_Mine.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- copper / ancient / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Constructed</State>
+			<Model>Art/GNK/Luxuries/Copper/MED_Mine_Copper.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- copper / ancient / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Copper/PL_MED_Mine_Copper.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- copper / industrial / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Copper/HB_IND_Copper_Mine.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- copper / industrial / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Constructed</State>
+			<Model>Art/GNK/Luxuries/Copper/IND_Mine_Copper.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- copper / industrial / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_COPPER</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Copper/PL_MED_Mine_Copper.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<Scale>1.0</Scale>
+		</Row>
+		
 
 		<!--
 		/**
@@ -50,13 +187,26 @@
 		 */
 		-->
 		<Row>
+			<!-- crab / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_CRAB</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
-			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
-			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/GNK/crab.fxsxml</Model>
+			<Model>Art/GNK/Luxuries/Crab/crab.fxsxml</Model>
+			<LayoutHandler>ANIMATED</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.07</Scale>
+		</Row>
+		<Row>
+			<!-- crab / any / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_CRAB</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Model>Art/GNK/Luxuries/Crab/crab.fxsxml</Model>
+			<LayoutHandler>ANIMATED</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.07</Scale>
 		</Row>
 		
 		<!--
@@ -65,29 +215,110 @@
 		 */
 		-->
 		<Row>
+			<!-- salt / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
+			<Model>Art/GNK/Luxuries/Salt/salt.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
 			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
-			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/GNK/salt.fxsxml</Model>
+		</Row>
+		<Row>
+			<!-- salt / ancient / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Salt/HB_MED_Salt_Mine.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- salt / ancient / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Constructed</State>
+			<Model>Art/GNK/Luxuries/Salt/MED_Mine_Salt.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- salt / ancient / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Salt/PL_MED_Mine_Salt.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- salt / ancient / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/GNK/Luxuries/Salt/HB_IND_Salt_Mine.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- salt / ancient / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Constructed</State>
+			<Model>Art/GNK/Luxuries/Salt/IND_Mine_Salt.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- salt / ancient / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_SALT</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Pillaged</State>
+			<Model>Art/GNK/Luxuries/Salt/PL_IND_Mine_Salt.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
 		</Row>
 
 
 		<!--
 		/**
-		 * G&K - Truffle
+		 * G&K - Truffles
 		 */
 		-->
 		<Row>
+			<!-- truffles / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_TRUFFLES</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
-			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<Model>Art/GNK/Luxuries/Truffles/truffle.fxsxml</Model>
 			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/GNK/truffle.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+			<Scale>1.0</Scale>
+		</Row>
+		<Row>
+			<!-- truffles / any / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_TRUFFLES</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_CAMP</ImprovementType>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Model>Art/GNK/Luxuries/Truffles/truffle.fxsxml</Model>
+			<LayoutHandler>ANIMATED</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.13</Scale>
 		</Row>
 
 
@@ -97,21 +328,85 @@
 		 */
 		-->
 		<Row>
+			<!-- cocoa / any / unimproved -->
 			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
 			<Era>Any</Era>
 			<State>Any</State>
-			<Scale>1.0</Scale>
-			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
-			<LayoutHandler>RANDOM</LayoutHandler>
-			<Model>Art/BNW/Cocoa.fxsxml</Model>
+			<Model>Art/BNW/Luxuries/Cocoa/Cocoa.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.94</Scale>
 		</Row>
-		
-		
-		
+		<Row>
+			<!-- cocoa / ancient / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_MID_Cocoa_HB.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- cocoa / ancient / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Constructed</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_MID_Cocoa.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- cocoa / ancient / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Ancient</Era>
+			<State>Pillaged</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_MID_Cocoa_PIL.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- cocoa / industrial / under-construction -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_IND_Cocoa_HB.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- cocoa / industrial / constructed -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Constructed</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_IND_Cocoa.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
+		<Row>
+			<!-- cocoa / industrial / pillaged -->
+			<ResourceType>ART_DEF_RESOURCE_COCOA</ResourceType>
+			<ImprovementType>ART_DEF_IMPROVEMENT_PLANTATION</ImprovementType>
+			<Era>Industrial</Era>
+			<State>Pillaged</State>
+			<Model>Art/BNW/Luxuries/Cocoa/Plantation_IND_Cocoa_PIL.fxsxml</Model>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<TerrainContour>1</TerrainContour>
+			<Scale>0.96</Scale>
+		</Row>
 	</ArtDefine_Landmarks>
-
-
-
+	
+	
 	<ArtDefine_LandmarkTypes>
 		<Row>
 			<Type>ART_DEF_RESOURCE_CITRUS</Type>
@@ -143,7 +438,5 @@
 			<LandmarkType>Resource</LandmarkType>
 			<FriendlyName>Cocoa</FriendlyName>
 		</Row>
-
 	</ArtDefine_LandmarkTypes>
-  
 </GameData>
