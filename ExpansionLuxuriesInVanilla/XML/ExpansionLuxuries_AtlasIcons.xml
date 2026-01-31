@@ -134,6 +134,7 @@
 		<Row>
 			<IconName>ICON_RES_COCOA</IconName>
 			<IconMapping>1</IconMapping>
+			<IconFontTexture>ICON_FONT_TEXTURE_DLC_07</IconFontTexture>
 		</Row>
 	</IconFontMapping>
 </GameData>
