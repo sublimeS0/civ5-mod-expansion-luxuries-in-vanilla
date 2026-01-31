@@ -6,11 +6,9 @@ Expansion Luxuries in Vanilla!
 
 This Civ5 mod ports the luxury resources from the Gods and Kings expansion pack (citrus, 
 copper, crab, salt, and truffles) and the Brave New World expansion pack (cocoa) to 
-vanilla! All six\* of these resources can be found throughout your map with near-vanilla 
+vanilla! All six of these resources can be found throughout your map with near-vanilla 
 spawning behavior (some changes had to be made to make everything compatible with the 
 base game) with **NO** DLC required.
-
-\*Cocoa might not spawn in non-scenario maps. Still working on that one.
 
 ## Credit
 Ported by: sublimeS0 🍋‍🟩
