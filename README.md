@@ -10,6 +10,12 @@ vanilla! All six of these resources can be found throughout your map with near-v
 spawning behavior (some changes had to be made to make everything compatible with the 
 base game) with **NO** DLC required.
 
+Unfortunately, there is not a native way to create city state only luxuries in vanilla like 
+in the expansions, so porcelain and jewlery have been left out. If there is enough demand 
+(unlikely because who tf still plays vanilla), I will look into making that possible.
+
+Download on the [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3658475234)!
+
 ## Credit
 Ported by: sublimeS0 🍋‍🟩
 

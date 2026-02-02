@@ -7,3 +7,6 @@
 # ModBuddy
 Build/
 Packages/
+
+# Images
+*.xcf
